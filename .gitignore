@@ -153,4 +153,4 @@ cython_debug/
 
 # trained models
 # 因为.pth通常都太大了，所以我不打算用git来做版本控制，直接远程和本地进行推送就可以了
-.pth
+*.pth
