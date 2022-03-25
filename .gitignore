@@ -154,3 +154,7 @@ cython_debug/
 # trained models
 # 因为.pth通常都太大了，所以我不打算用git来做版本控制，直接远程和本地进行推送就可以了
 *.pth
+# output的检测结果我统统不要的干活！
+output-temp/
+# test的结果也没必要同步。。太麻烦
+test_log/
